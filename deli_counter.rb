@@ -15,7 +15,7 @@ def take_a_number(list, name)
   puts "Welcome, #{name}. You are number #{list.length} in line."
 end
 
-def now_serving
+def now_serving(list)
   if list.length == 0
     puts "There is nobody waiting to be served!"
   else
