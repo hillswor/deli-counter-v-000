@@ -14,3 +14,7 @@ def take_a_number(list, name)
   list << name
   puts "Welcome, #{name}. You are number #{list.length} in line."
 end
+
+def now_serving
+
+end
