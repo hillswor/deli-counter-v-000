@@ -9,3 +9,8 @@ def line(list)
       puts "#{status}"
   end
 end
+
+def take_a_number(list, name)
+  list << name
+  puts "Welcome, #{name}. You are number #{list.length} in line."
+end
