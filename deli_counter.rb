@@ -4,8 +4,8 @@ def line(list)
   else
       status = "The line is currently:"
       list.each_with_index do |name, index|
-      status += " #{index.to_i + 1}. #{name}.
+      status += " #{index.to_i + 1}. #{name}."
     end
-      puts #{status}
+      puts "#{status}"
   end
 end
